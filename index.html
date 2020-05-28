@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Grid Bootstrap 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col">
+                <h1>Header</h1>
+            </div>
+        </header>
+
+        <main class="row"> <!-- no es necesario pasar d-flex al trabajar con row lo hace por defecto-->
+            <article class="col-12 col-md-8 ">
+                <h3>Artículo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum error, eius saepe veniam ipsa impedit adipisci nam delectus pariatur? Placeat aspernatur possimus inventore excepturi maxime sequi beatae laudantium voluptatibus quos.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil expedita fugit quam dolore iste illum dicta quod sint earum? Inventore ex reprehenderit quas atque ducimus perspiciatis pariatur harum at quo?</p>
+            </article>
+            <aside class="col-12 col-md-4 align-self-center">
+                <div>
+                    <h3>Sidebar</h3>
+                </div>
+            </aside>
+        </main>
+
+        <section class="row widgets justify-content-between">
+            <div class="col-12 col-md-4 col-lg-3 widget">
+                <h3>Widgets</h3>
+                
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 widget">
+                <h3>Widgets</h3>
+                
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 widget">
+                <h3>Widgets</h3>
+                
+            </div>
+        </section>
+
+        <footer class="row">
+            <div class="col">
+                <h3>Footer</h3>
+            </div>
+
+        </footer>
+    </div>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
